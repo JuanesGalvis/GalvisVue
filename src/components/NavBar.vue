@@ -2,6 +2,9 @@
   <nav class="Navegacion">
     <ul>
       <li>
+        <router-link to="/">Inicio</router-link>
+      </li>
+      <li>
         <router-link to="Educacion">Educación</router-link>
       </li>
       <li>
@@ -94,11 +97,6 @@ export default {
   transition: 0.5s border;
 }
 
-/* .Navegacion ul li:hover {
-  border-bottom: 5px solid #d14233;
-  transition: 0.5s border;
-} */
-
 .Navegacion ul li a {
   text-decoration: none;
   overflow: 1px solid #d14233;
@@ -110,5 +108,9 @@ export default {
 .Menu li img {
   width: 40px;
   height: 40px;
+}
+
+.Menu li:nth-of-type(2) img {
+  border-radius: 100%;
 }
 </style>
