@@ -57,7 +57,6 @@ export default {
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 5px;
-  font-family: "Oswald", sans-serif;
   font-weight: 500;
   font-size: 20px;
   display: flex;

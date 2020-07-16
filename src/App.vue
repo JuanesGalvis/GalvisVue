@@ -2,6 +2,7 @@
   <div id="app">
     <Navegacion />
     <Presentacion />
+    <router-view />
   </div>
 </template>
 
@@ -27,7 +28,7 @@ body {
 }
 
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Oswald", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
