@@ -1,3 +1,4 @@
+![Logo de Vue.js](https://static.platzi.com/media/achievements/badge-basico-vue-js-a86950de-232c-4ebe-b635-a0bba62f87ae.png)
 # Galvis Vue
 
 > Portafolio personal programado con Vue JS + Sistema de Diseño (Notion)
