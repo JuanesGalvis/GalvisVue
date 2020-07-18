@@ -1,6 +1,6 @@
 <template>
   <nav class="Navegacion">
-    <ul>
+    <ul class="Menu">
       <li>
         <router-link to="/">Inicio</router-link>
       </li>
@@ -8,16 +8,16 @@
         <router-link to="Educacion">Educación</router-link>
       </li>
       <li>
-        <router-link to="Cursos">Cursos</router-link>
-      </li>
-      <li>
         <router-link to="Contacto">Contacto</router-link>
       </li>
       <li>
-        <a href="https://www.notion.so/Scope-indefinido-a571a1662f4b4c16affe748f24d6f062">Blog</a>
+        <a
+          target="_blank"
+          href="https://www.notion.so/Scope-indefinido-a571a1662f4b4c16affe748f24d6f062"
+        >Blog</a>
       </li>
     </ul>
-    <ul class="Menu">
+    <ul class="Versiones">
       <li>
         <a href>
           <img src="https://cdn.iconscout.com/icon/free/png-256/vue-282497.png" alt="Vue JS" />
@@ -86,15 +86,15 @@ export default {
 .Navegacion ul:nth-of-type(1) li {
   list-style: none;
   margin: 0px 10px;
-  border-left: 5px solid #d14233;
-  transition: 0.5s border;
+  border-left: 5px solid transparent;
+  border-image: linear-gradient(to bottom, #d14233 0%, #80271e 100%) 1;
 }
 
 .Navegacion ul:nth-of-type(2) li {
   list-style: none;
   margin: 0px 10px;
-  border-right: 5px solid #d14233;
-  transition: 0.5s border;
+  border-right: 5px solid transparent;
+  border-image: linear-gradient(to bottom, #d14233 0%, #80271e 100%) 1;
 }
 
 .Navegacion ul li a {
@@ -105,12 +105,25 @@ export default {
   color: #000000;
 }
 
-.Menu li img {
+.Versiones li img {
   width: 40px;
   height: 40px;
 }
 
-.Menu li:nth-of-type(2) img {
+.Versiones li:nth-of-type(2) img,
+li:nth-of-type(4) img {
   border-radius: 100%;
+}
+
+@media screen and (max-width: 808px) {
+  .Navegacion {
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .Navegacion ul:nth-of-type(2),
+  .Navegacion ul:nth-of-type(1) {
+    justify-content: center;
+  }
 }
 </style>

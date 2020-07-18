@@ -37,4 +37,9 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+
+button,
+input[type="submit"] {
+  font-family: "Oswald", sans-serif;
+}
 </style>

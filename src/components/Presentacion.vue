@@ -8,7 +8,11 @@
       <h1>Juan Esteban Galvis</h1>
       <p
         aria-label="Mi presentación como Desarrollador Web, aficionado a la investigación y estudiante"
-      >Front-end web development 💻 ~ Aficionado a la investigación 📰 ~ Estudiante de Ingeniería y Platzi 💚</p>
+      >
+        Desarrollador Web 💻
+        <br />Aficionado a la investigación 📰
+        <br />Estudiante de Ingeniería y Platzi 💚
+      </p>
     </div>
   </header>
 </template>
@@ -61,11 +65,30 @@ export default {
 }
 
 .Header__Info p {
-  margin: 5px 0px;
+  margin: -10px 0px;
 }
 
 .Header__Info h1 {
-  font-size: 25px;
+  font-size: 50px;
   border-bottom: 3px solid black;
+}
+
+@media screen and (max-width: 808px) {
+  .Header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .Header__Foto {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 512px) {
+  .Header__Foto .LogoMarca {
+    display: none;
+  }
 }
 </style>

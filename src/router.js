@@ -6,7 +6,6 @@ import Router from "vue-router";
 import Home from "@/view/Home";
 import CError from "@/view/Error";
 import Educacion from "@/view/Educacion";
-import Cursos from "@/view/Cursos";
 import Contacto from "@/view/Contacto";
 
 Vue.use(Router);
@@ -28,11 +27,6 @@ export default new Router({
       path: "/Educacion",
       name: "Educacion",
       component: Educacion,
-    },
-    {
-      path: "/Cursos",
-      name: "Cursos",
-      component: Cursos,
     },
     {
       path: "/Contacto",

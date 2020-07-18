@@ -73,4 +73,10 @@ export default {
 .Educacion ul li p {
   font-size: 1.2em;
 }
+
+@media screen and (max-width: 321px) {
+  .Educacion {
+    width: 90%;
+  }
+}
 </style>

@@ -55,4 +55,15 @@ export default {
   font-size: 20px;
   cursor: pointer;
 }
+
+@media screen and (max-width: 461px) {
+  .Error {
+    flex-direction: column;
+  }
+
+  .Error img {
+    display: flex;
+    align-self: flex-end;
+  }
+}
 </style>
