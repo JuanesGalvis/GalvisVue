@@ -1,25 +1,25 @@
 <template>
   <section class="Contacto">
     <div class="Contacto__Redes">
-      <a target="_blank" href="https://twitter.com/JuanEGalvis">
+      <a target="_blank" href="https://twitter.com/JuanEGalvis" rel="Perfil Twitter">
         <figure>
           <img src="https://img.icons8.com/fluent/48/000000/twitter.png" alt="Twitter" />
           <figcaption>Twitter</figcaption>
         </figure>
       </a>
-      <a target="_blank" href="https://github.com/JuanesGalvis">
+      <a target="_blank" href="https://github.com/JuanesGalvis" rel="Perfil GitHub">
         <figure>
           <img src="https://img.icons8.com/ios-filled/50/000000/github.png" alt="GitHub" />
           <figcaption>GitHub</figcaption>
         </figure>
       </a>
-      <a target="_blank" href="https://www.linkedin.com/in/juanegalvis">
+      <a target="_blank" href="https://www.linkedin.com/in/juanegalvis" rel="Perfil Linkedin">
         <figure>
           <img src="https://img.icons8.com/color/50/000000/linkedin.png" alt="Linkedin" />
           <figcaption>Linkedin</figcaption>
         </figure>
       </a>
-      <a target="_blank" href="https://www.instagram.com/juanesgalvisb/">
+      <a target="_blank" href="https://www.instagram.com/juanesgalvisb/" rel="Perfil Instagram">
         <figure>
           <img src="https://img.icons8.com/fluent/48/000000/instagram-new.png" alt="Instagram" />
           <figcaption>Instagram</figcaption>

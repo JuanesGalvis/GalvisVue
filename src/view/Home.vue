@@ -57,6 +57,7 @@
       <a
         href="https://platzi.com/@JuanGalvis"
         target="_blank"
+        rel="Perfil Externo"
       >Mi Perfil en Platzi</a>
     </p>
     <p>Soy una persona seria, autodidacta en constante aprendizaje y con ganas de enseñar, escribir y crear tecnología con un sentido social.</p>
@@ -72,11 +73,16 @@
         <a
           target="_blank"
           href="https://www.notion.so/Design-System-1ed6a8bdda5f4d468023f8d6aabda115"
+          rel="Documentacion"
         >🎨 Sistema de Diseño</a>
       </li>
       <p>Conoce los estandares, principios y organización del proyecto</p>
       <li>
-        <a target="_blank" href="https://github.com/JuanesGalvis/GalvisVue">📦 Repositorio</a>
+        <a
+          target="_blank"
+          href="https://github.com/JuanesGalvis/GalvisVue"
+          ref="Codigo fuente"
+        >📦 Repositorio</a>
       </li>
       <p>Código fuente de la página (Vue.js 💚)</p>
     </ul>
