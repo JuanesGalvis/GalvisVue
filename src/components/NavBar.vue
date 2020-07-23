@@ -8,7 +8,7 @@
         <router-link to="Educacion">Educación</router-link>
       </li>
       <li>
-        <router-link to="Contacto">Contacto</router-link>
+        <router-link to="Portafolio">Portafolio</router-link>
       </li>
       <li>
         <a
@@ -20,19 +20,15 @@
     </ul>
     <ul class="Versiones">
       <li>
-        <a href>
-          <img src="https://cdn.iconscout.com/icon/free/png-256/vue-282497.png" alt="Vue JS" />
-        </a>
+        <img src="https://cdn.iconscout.com/icon/free/png-256/vue-282497.png" alt="Vue JS" />
       </li>
       <li>
-        <a href>
-          <img
-            src="https://webmention.io/avatar/pbs.twimg.com/f1ad2f17c5e2525386816de6ca3494842ac2b75dc09d8cc485691835f5e91715.png"
-            alt="Svelte"
-          />
-        </a>
+        <img
+          src="https://webmention.io/avatar/pbs.twimg.com/f1ad2f17c5e2525386816de6ca3494842ac2b75dc09d8cc485691835f5e91715.png"
+          alt="Svelte"
+        />
       </li>
-      <li>
+      <!-- <li>
         <a href>
           <img
             src="https://creativo-websolutions.com/my_files/2020/04/angular-logo.png"
@@ -44,7 +40,7 @@
         <a href>
           <img src="https://cdn.iconscout.com/icon/free/png-256/react-1-282599.png" alt="React" />
         </a>
-      </li>
+      </li>-->
     </ul>
   </nav>
 </template>
@@ -100,9 +96,12 @@ export default {
 
 .Navegacion ul li a {
   text-decoration: none;
+  color: #000000;
+}
+
+.Navegacion ul li {
   overflow: 1px solid #d14233;
   padding: 5px 10px;
-  cursor: pointer;
   color: #000000;
 }
 

@@ -61,12 +61,7 @@
       >Mi Perfil en Platzi</a>
     </p>
     <p>Soy una persona seria, autodidacta en constante aprendizaje y con ganas de enseñar, escribir y crear tecnología con un sentido social.</p>
-    <h2 class="Title">
-      ¿Cómo trabajo?
-      <button class="Bienvenida__Trabajar">
-        <router-link to="Contacto">Trabajamos juntos?</router-link>
-      </button>
-    </h2>
+    <h2 class="Title">¿Cómo trabajo?</h2>
     <p>Te invito a conocer el sistema de diseño y el repositorio de esta página para que me conozcas 😉</p>
     <ul class="Bienvenida__links">
       <li>
