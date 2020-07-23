@@ -3,7 +3,7 @@
 
 > Portafolio personal programado con Vue JS + Sistema de Diseño (Notion)
 
-![Produccion](https://i.ibb.co/xhhSBDc/Captura-de-pantalla-de-2020-07-18-01-44-00.png)
+![Produccion](https://i.ibb.co/5FKpVdN/Personal.png)
 
 ### Producción:
 https://juangalvis.netlify.app
