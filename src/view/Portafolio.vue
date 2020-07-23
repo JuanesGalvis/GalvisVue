@@ -4,7 +4,7 @@
       <h2>iMatch</h2>
       <img src="https://i.ibb.co/0XYG46g/Preview.png" alt="Vista previa de iMatch" />
       <p>Interfaz de un Tinder para desarrolladores con información de una API pública</p>
-      <a href="imatch.netlify.app" rel="Proyecto en Producción">
+      <a href="https://imatch.netlify.app" rel="Proyecto en Producción">
         <button>Ver!</button>
       </a>
     </div>
