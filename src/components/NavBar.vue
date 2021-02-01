@@ -13,7 +13,7 @@
       <li>
         <a
           target="_blank"
-          href="https://www.notion.so/Scope-indefinido-a571a1662f4b4c16affe748f24d6f062"
+          href="https://gato-assange.herokuapp.com"
           rel="Sitio Externo"
         >Blog</a>
       </li>
